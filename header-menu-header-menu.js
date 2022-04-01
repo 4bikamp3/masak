@@ -1,0 +1,1 @@
+jQuery(function($){'use strict';$('.main-navigation').find('li ul.sub-menu li.menu-item-has-children').mouseenter(function(){if($(this).children('ul.sub-menu').offset().left+250>$(window).width()){$(this).find('ul.sub-menu').css({right:'100%',left:'auto'});}});});

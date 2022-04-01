@@ -1,0 +1,1 @@
+jQuery(function($){'use strict';var $body=$('body');var $menuToggle=$('.slideout-sidebar-enabel .menu-toggle');$menuToggle.on('click',e=>{e.stopPropagation();$body.addClass('slideout-sidebar-open');setTimeout(()=>{$('.header__close').focus();},200);});$('.site, .header__close').on('click',()=>{$body.removeClass('slideout-sidebar-open');});});
